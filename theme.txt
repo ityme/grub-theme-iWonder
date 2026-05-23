@@ -1,0 +1,33 @@
+title-text: ""
+desktop-image: "solitary-girl-silhouette.jpg"
+desktop-image-scale-method: "crop"
+desktop-color: "#000000"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ boot_menu {
+    top = 35%
+    left = 55%
+    width = 45%
+    height = 45%
+    item_font = "Sour Gummy Regular"
+    item_height = 75
+    item_spacing = 10
+    item_color = "#8a8a8a"
+    selected_item_color = "#ffffff"
+}
+
+# Show a countdown message using the label component
++ label {
+  top = 90%
+  left = 0%
+  width = 100%
+  align = "center"
+  id = "__timeout__"
+  text = "booting in %d seconds"
+  color = "#8a8a8a"
+  font = "Sour Gummy Regular"
+}
